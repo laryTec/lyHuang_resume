@@ -60,7 +60,7 @@ copy config to local：
 LOCAL_DOCKER_MYSQL_PATH=/Users/docker/mysql \
 DOCKER_MYSQL_TMP=`docker run -d mysql:8.0` \
 && docker cp $DOCKER_MYSQL_TMP:/etc/my.cnf $LOCAL_DOCKER_MYSQL_PATH/conf \
-&& docker stop $DOCKER_MYSQL_TMP \
+&& docker stop $DOCKER_MYSQL_TMP \｀
 && docker rm $DOCKER_MYSQL_TMP
 ```
 

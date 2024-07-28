@@ -1,8 +1,22 @@
 <?php
-$conn = new mysqli("localhost", "root", "root", "lyHuang_resume");
-if ($error = $conn->connect_error) {
-    die('資料庫連接失敗:' . $error);
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+// 数据库连接信息
+$servername = "127.0.0.1";
+$username = "root";
+$password = "root";
+$dbname = "lyHuang_resume";
+
+// 创建连接
+$conn = new mysqli($servername, $username, $password, $dbname, null);
+
+// 检查连接
+if ($conn->connect_error) {
+    die("資料庫連接失敗: " . $conn->connect_error);
 }
+
 if ($_SERVER["REQUEST_METHOD"] === 'POST') {
     $accessed = true;
     // 進行端驗證
