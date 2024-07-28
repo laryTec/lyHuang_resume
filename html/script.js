@@ -35,14 +35,14 @@ $(document).ready(function () {
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Developer", "Fencer", "Economist", "Financier"],
+        strings: ["軟體工程師", "擊劍選手", "數據研究愛好者", "兔子飼養員"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["Developer", "Fencer", "Economist", "Financier"],
+        strings: ["軟體工程師", "擊劍選手", "數據研究愛好者", "兔子飼養員"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true

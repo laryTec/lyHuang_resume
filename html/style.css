@@ -477,8 +477,8 @@ section .title::after {
     transition: transform 0.6s;
     border-radius: 5px;
     height: 150px;
+    
 }
-
 .side {
     position: absolute;
     top: 0;

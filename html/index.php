@@ -71,9 +71,9 @@ $conn->close();
     <section class="home" id="home">
         <div class="max-width">
             <div class="home-content">
-                <div class="text-1">Hello, my name is</div>
-                <div class="text-2">Li-yan Huang</div>
-                <div class="text-3">And I'm a <span class="typing"></span></div>
+                <div class="text-1">我的名字是</div>
+                <div class="text-2">黃 立言</div>
+                <div class="text-3">我還是一個 <span class="typing"></span></div>
                 <a href="#">Hire me</a>
             </div>
         </div>
@@ -82,19 +82,17 @@ $conn->close();
     <!-- about section start -->
     <section class="about" id="about">
         <div class="max-width">
-            <h2 class="title">About me</h2>
+            <h2 class="title">關於我</h2>
             <div class="about-content">
                 <div class="column left">
-                    <img src="images/logo.png" alt="">
+                    <img src="images/S__12443688.jpg" alt="">
                 </div>
                 <div class="column right">
-                    <div class="text">I'm Li-yan and I'm a <span class="typing-2"></span></div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut voluptatum eveniet doloremque
-                        autem excepturi eaque, sit laboriosam voluptatem nisi delectus. Facere explicabo hic minus
-                        accusamus alias fuga nihil dolorum quae. Explicabo illo unde, odio consequatur ipsam possimus
-                        veritatis, placeat, ab molestiae velit inventore exercitationem consequuntur blanditiis omnis
-                        beatae. Dolor iste excepturi ratione soluta quas culpa voluptatum repudiandae harum non.</p>
-                    <a href="#">Download CV</a>
+                    <div class="text">我是黃立言，我是一個 <span class="typing-2"></span></div>
+                    <p>在過去的創業經歷中，接觸到了開發公司網頁的項目，深覺自己很有興趣，就開始自主學習，邊學邊做的過程中，不僅在解決問題時獲得到極大的成就感，並且能夠創造出有價值的產品，這促使我決心踏入程式領域。之後在創建獨立工作室的過程中，發現自己有很多的不足，也需要更有系統性的學習程式語言，於是開始了前端工程師的培訓。
+
+                    </p>
+                    <a href="https://pda.104.com.tw/profile/share/bGlrHD2sLajYOoKB2GtLiVO9dvBFdWv6">Download CV</a>
                 </div>
             </div>
         </div>
@@ -103,12 +101,20 @@ $conn->close();
     <!-- services section start -->
     <section class="services" id="services">
         <div class="max-width">
-            <h2 class="title">My services</h2>
+            <h2 class="title">工作內容</h2>
             <div class="serv-content">
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-code"></i>
-                        <div class="text">Coding </div>
+                        <div class="text">FRONTEND </div>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <div class="text">BACKEND</div>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.
                         </p>
                     </div>
@@ -116,15 +122,7 @@ $conn->close();
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-paint-brush"></i>
-                        <div class="text">Web Design</div>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.
-                        </p>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="box">
-                        <i class="fas fa-chart-line"></i>
-                        <div class="text">Economic</div>
+                        <div class="text">UIUX</div>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.
                         </p>
                     </div>
@@ -137,34 +135,24 @@ $conn->close();
     <!-- skills section start -->
     <section class="skills" id="skills">
         <div class="max-width">
-            <h2 class="title">My skills</h2>
+            <h2 class="title">我的技能</h2>
             <div class="skills-content">
                 <div class="column left">
-                    <div class="text">My creative skills & experiences.</div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ratione error est
-                        recusandae consequatur, iusto illum deleniti quidem impedit, quos quaerat quis minima sequi.
-                        Cupiditate recusandae laudantium esse, harum animi aspernatur quisquam et delectus ipsum quam
-                        alias quaerat? Quasi hic quidem illum. Ad delectus natus aut hic explicabo minus quod.</p>
-                    <a href="#">Read more</a>
+                    <div class="text">軟體工程師</div>
+                    <p>目前已經擁有一些使用 Next.JS、Express.JS、和 Laravel 的經驗，並在前端技術如WebRTC 和 WebSocket 方面有一些基本的實踐。我始終保持著對新技術探索的熱情，並不斷學習和進步。也相信，憑藉這份熱情和不斷積累的技能，一定能夠在程式設計領域創造出更多的價值，實現自己的理想。</p>
+                    <a href="https://github.com/laryTec">Read more</a>
                 </div>
                 <div class="column right">
                     <div class="bars">
                         <div class="info">
-                            <span>HTML</span>
-                            <span>90%</span>
+                            <span>NextJS</span>
+                            <span>80%</span>
                         </div>
-                        <div class="line html"></div>
+                        <div class="line js"></div>
                     </div>
                     <div class="bars">
                         <div class="info">
-                            <span>CSS</span>
-                            <span>60%</span>
-                        </div>
-                        <div class="line css"></div>
-                    </div>
-                    <div class="bars">
-                        <div class="info">
-                            <span>JavaScript</span>
+                            <span>ExpressJS</span>
                             <span>80%</span>
                         </div>
                         <div class="line js"></div>
@@ -172,6 +160,13 @@ $conn->close();
                     <div class="bars">
                         <div class="info">
                             <span>PHP</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line js"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Docker</span>
                             <span>50%</span>
                         </div>
                         <div class="line php"></div>
@@ -190,68 +185,33 @@ $conn->close();
 
     <!-- teams section start -->
     <section class="teams" id="teams">
-        <h2 class="title">Portfolio</h2>
+        <h2 class="title">作品集</h2>
         <div class="carousel owl-carousel">
-            <div class="card">
-                <div class="side">
-                    <img src="images/logo.png" alt="Project 1">
+            <div class="card card1">
+                <div class="side" style="background-image: url('./images/image.png'); background-position: center -20px; background-size: cover;">
+                    <img src=" images/logo.png" alt="Project 1">
                 </div>
-                <div class="side back">Project 1</div>
+                <div class="side back">RPG 遊戲官方網頁</div>
             </div>
             <div class="card">
-                <div class="side">
+                <div class="side" style="background-image: url('./images/image3.png'); background-position: center -20px; background-size: cover;">
                     <img src="images/logo.png" alt="Project 2">
                 </div>
-                <div class="side back">Project 2</div>
+                <div class="side back">RPG 遊戲私服搭建</div>
             </div>
             <div class="card">
-                <div class="side">
+                <div class="side" style="background-image: url('./images/image2.png'); background-position: center -20px; background-size: cover;">
                     <img src="images/logo.png" alt="Project 3">
                 </div>
-                <div class="side back">Project 3</div>
+                <div class="side back">PHP 綠界金流網頁</div>
             </div>
-            <div class="card">
+            <div class="card" style="background-image: url('./images/image1.png'); background-position: center -20px; background-size: cover;">
                 <div class="side">
                     <img src="images/logo.png" alt="Project 4">
                 </div>
-                <div class="side back">Project 4</div>
+                <div class="side back">PHP 個人履歷網頁</div>
             </div>
-            <div class="card">
-                <div class="side">
-                    <img src="images/logo.png" alt="Project 5">
-                </div>
-                <div class="side back">Project 5</div>
-            </div>
-            <div class="card">
-                <div class="side">
-                    <img src="images/logo.png" alt="Project 6">
-                </div>
-                <div class="side back">Project 6</div>
-            </div>
-            <div class="card">
-                <div class="side">
-                    <img src="images/logo.png" alt="Project 7">
-                </div>
-                <div class="side back">Project 7</div>
-            </div>
-            <div class="card">
-                <div class="side">
-                    <img src="images/logo.png" alt="Project 8">
-                </div>
-                <div class="side back">Project 8</div>
-            </div>
-            <div class="card">
-                <div class="side">
-                    <img src="images/logo.png" alt="Project 9">
-                </div>
-                <div class="side back">Project 9</div>
-            </div>
-            <div class="card">
-                <div class="side">
-                    <img src="images/logo.png" alt="Project 10">
-                </div>
-                <div class="side back">Project 10</div>
-            </div>
+
         </div>
         </div>
     </section>
@@ -259,39 +219,40 @@ $conn->close();
     <!-- contact section start -->
     <section class="contact" id="contact">
         <div class="max-width">
-            <h2 class="title">Contact me</h2>
+            <h2 class="title">聯絡我</h2>
             <div class="contact-content">
                 <div class="column left">
-                    <div class="text">Get in Touch</div>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos harum corporis fuga
-                        corrupti. Doloribus quis soluta nesciunt veritatis vitae nobis?</p>
+                    <div class="text">我的資訊</div>
+
                     <div class="icons">
                         <div class="row">
                             <i class="fas fa-user"></i>
                             <div class="info">
-                                <div class="head">Name</div>
-                                <div class="sub-title">Li-yan Huang</div>
+                                <div class="head">姓名</div>
+                                <div class="sub-title">黃 立言 </div>
                             </div>
                         </div>
                         <div class="row">
                             <i class="fas fa-map-marker-alt"></i>
                             <div class="info">
-                                <div class="head">Address</div>
-                                <div class="sub-title">Teipei, TW</div>
+                                <div class="head">所在地</div>
+                                <div class="sub-title">台灣 台北</div>
                             </div>
                         </div>
                         <div class="row">
                             <i class="fas fa-envelope"></i>
                             <div class="info">
-                                <div class="head">Email</div>
+                                <div class="head">信箱</div>
                                 <div class="sub-title">104208098@g.nccu.edu.tw</div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="column right">
-                    <div class="text">Message me</div>
-
+                    <div class="text">寄信給我</div>
+                    <p> ※注意: 此處是用於 PHP 測試 server mysql 的區塊，表單送出會讀取 database 中 最新的三筆資料。
+                    </p>
+                    <br>
                     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
                         <div class="fields">
                             <div class="field name">
@@ -308,8 +269,8 @@ $conn->close();
                             <textarea name="message" cols="30" rows="10" placeholder="Message.." required></textarea>
                         </div>
                         <div class="button-area">
-                            <button name="submitted" type="submit">Send message</button>
-                        </div>
+                            <button name="submitted" type="submit">傳送</button>
+                        </div><br>
                     </form>
                     <div class="testlist">
                         <?php
